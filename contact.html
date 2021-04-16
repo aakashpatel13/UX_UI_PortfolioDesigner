@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Portfolio</title>
+
+    <!-- Link the stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  </head>
+
+  <body>
+    
+    <!-- Display a navigation bar -->
+    <div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="myDesigns.html">My Web Designs</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a class="active" href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+
+    <header>
+      <br /><br />
+      <center>
+        <h1 style="color: white;">CONTACT US</h1>
+        <div class="contact-container">
+          <form action="thankyouContact.html" method="POST">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" name="firstname" placeholder="First name" required />
+
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name" required />
+
+            <label for="country">COUNTRY</label>
+            <select id="country" name="country">
+              <option value="india">India</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">SUBJECT</label>
+            <textarea id="subject" name="subject" placeholder="Write something" style="height: 200px;" required></textarea>
+
+            <input type="submit" value="SUBMIT" />
+            <input type="reset" value="RESET" />
+          </form>
+        </div>
+      </center>
+    </header>
+  </br></br></br></br></br>
+  
+    <!--footer-->
+    <footer>
+      <p align="center">Copyright © 2020 Nidhi & Aakash</p>
+    </footer>
+  </body>
+</html>
